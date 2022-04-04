@@ -1,0 +1,4 @@
+bind Ctrl+O{
+  show_message("this is a alert!");
+  elog("i am a log");
+} 

@@ -1,0 +1,7 @@
+sub fun1{
+        println("参数为：$1");
+}
+
+command A{
+        fun1($1);
+} 

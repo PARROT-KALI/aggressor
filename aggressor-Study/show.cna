@@ -1,0 +1,3 @@
+command showme{
+    println("ipaddress is: ".targets()[$1]["address"]."\n os is:".targets()[$1]["os"]);
+} 

@@ -1,0 +1,7 @@
+popup caidan1
+{
+        item("&item1",{url_open("http://www.baidu.com")});
+        separator();
+        item("&item2",{show_message("please turn to item1")});
+} 
+menubar("我的菜单","caidan1");

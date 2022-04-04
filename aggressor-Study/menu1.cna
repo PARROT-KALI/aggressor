@@ -1,0 +1,11 @@
+popup beacon_buttom
+{
+        menu "attack"
+        {
+            item("&item1",{url_open("http://www.baidu.com")});
+            separator();
+            item("&item2",{show_message("please turn to item1")});
+        }
+        
+} 
+

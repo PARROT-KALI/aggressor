@@ -1,0 +1,5 @@
+$x = 2;
+%dic["key1"] = "value1";
+%dic["key2"] = $x;
+%dic[$x]="value3";
+println("dic is ".%dic); 
